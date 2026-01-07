@@ -6,8 +6,6 @@
     <title>SONSUZ.AY | Tüm Oyunlar</title>
     
     <link rel="icon" type="image/png" href="site_simge.png">
-    <link rel="manifest" href="manifest.json">
-
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1819947444660683"
          crossorigin="anonymous"></script>
     
@@ -60,11 +58,11 @@
             z-index: 2;
         }
         
-        /* IZGARA YAPISI - ESKİ BOYUTLAR */
+        /* IZGARA YAPISI */
         .game-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
-            gap: 15px; /* Boşluklar küçültüldü */
+            gap: 15px; 
             max-width: 1200px;
             margin: 0 auto;
             margin-bottom: 40px;
@@ -72,10 +70,10 @@
             z-index: 2;
         }
 
-        /* KART YAPISI - ESKİ BOYUTLAR */
+        /* KART YAPISI */
         .game-card {
-            background-color: rgba(26, 26, 56, 0.8); /* Hafif şeffaf */
-            padding: 12px; /* Dolgu küçültüldü */
+            background-color: rgba(26, 26, 56, 0.8); 
+            padding: 12px; 
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(57, 255, 20, 0.3); 
             border: 1px solid rgba(57, 255, 20, 0.1);
@@ -113,9 +111,9 @@
         }
         .game-card a:hover { background-color: #00cccc; box-shadow: 0 0 10px #00cccc; }
         
-        /* RESİM BOYUTU DÜZELTİLDİ (%50) */
+        /* RESİM AYARLARI */
         .game-card img {
-            width: 50%; /* Eskisi gibi %50 yapıldı */
+            width: 50%; 
             height: auto; 
             border-radius: 5px; 
             margin-bottom: 10px;
@@ -227,10 +225,9 @@
         
     </div>
 
-    <a href="index.html" class="back-btn">⬅ Ana Menüye Dön</a>
+    <a href="https://sonsuzay.github.io/" class="back-btn">🏠 Ana Sayfaya Dön</a>
 
     <script>
-        // YILDIZ OLUŞTURUCU SCRIPT
         const container = document.getElementById('starContainer');
         for(let i=0; i<60; i++) { 
             const star = document.createElement('div');
