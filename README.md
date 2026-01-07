@@ -1,2 +1,2 @@
-# oyunlar-web
+# oyunlar
 Bütün web Oyun kodları
